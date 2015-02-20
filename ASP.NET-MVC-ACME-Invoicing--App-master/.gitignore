@@ -1,0 +1,8 @@
+bin/
+obj/
+iloire Facturacion/*.dll
+iloire Facturacion Tests/*.dll
+*.pdb
+*.suo
+iloire Facturacion/App_Error/*
+*.sdf
