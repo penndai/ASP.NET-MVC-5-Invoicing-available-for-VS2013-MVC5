@@ -9,8 +9,11 @@
 
  <script type="text/javascript">
      $(document).ready(function () {
-         $("ul.filtroAlfab a").click(function (e) {
-             $.ajax({ url: this.href, success: function (data) {
+     	$("ul.filtroAlfab a").click(function (e) {
+     		//alert(this.href);
+         	$.ajax({         		
+         		url: this.href, success: function (data) {
+         			//alert("aaa" + data);
                  $("#ajaxResponse").html(data);
              }
              });
@@ -29,16 +32,16 @@
 }
 
 <ul class="filtroAlfab">
-@foreach (var letra in "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ")
+@foreach (var letter in "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ")
  {
-    if (ViewBag.LetraAlfabetica == letra.ToString())
+    if (ViewBag.LetraAlfabetica == letter.ToString())
     {     
-        <li class="selected">@letra</li>
+        <li class="selected">@letter</li>
     }
     else
     { 
         <text>
-        <li>@Html.ActionLink(letra.ToString(), "Search", Model, new { q = letra }, null)</li>
+        <li>@Html.ActionLink(letter.ToString(), "Search", Model, new { q = letter }, null)</li>
         </text>
     }
 }

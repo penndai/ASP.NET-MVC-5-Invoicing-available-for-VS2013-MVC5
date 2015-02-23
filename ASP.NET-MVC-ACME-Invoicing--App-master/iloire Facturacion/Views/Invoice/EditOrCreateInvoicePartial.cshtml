@@ -20,6 +20,16 @@
             $('#InvoiceNumber').attr('disabled', '');
         });
     });
+
+    $(function () {
+    	$.validator.methods.date = function (value, element) {
+    		Globalize.culture("en-AU");
+    		// you can alternatively pass the culture to parseDate instead of
+    		// setting the culture above, like so:
+    		// parseDate(value, null, "en-AU")
+    		return this.optional(element) || Globalize.parseDate(value) !== null;
+    	}
+    });
 </script>
   <fieldset>
         <legend>@entityname edition</legend>
@@ -86,7 +96,7 @@
             @Html.LabelFor(model => model.TimeStamp)
         
             <div class="input">
-                @Html.EditorFor(model => model.TimeStamp, "Calendar")
+                @Html.EditorFor(model => model.TimeStamp)
                 @Html.ValidationMessageFor(model => model.TimeStamp)
             </div>
 		</div>
@@ -95,7 +105,7 @@
             @Html.LabelFor(model => model.DueDate)
         
             <div class="input">
-                @Html.EditorFor(model => model.DueDate, "Calendar")
+                @Html.EditorFor(model => model.DueDate)
                 @Html.ValidationMessageFor(model => model.DueDate)
             </div>
 		</div>

@@ -38,10 +38,10 @@ namespace iloire_Facturacion.Controllers
 
             int currentPageIndex = page.HasValue ? page.Value - 1 : 0;
             var customersListPaged = customers.OrderBy(i => i.Name).ToPagedList(currentPageIndex, defaultPageSize);
-            
-            if (Request.IsAjaxRequest())
-                return PartialView("Index", customersListPaged);
-            else
+
+			if (Request.IsAjaxRequest())
+				return PartialView("Index", customersListPaged);
+			else
                 return View("Index", customersListPaged);
         }
 

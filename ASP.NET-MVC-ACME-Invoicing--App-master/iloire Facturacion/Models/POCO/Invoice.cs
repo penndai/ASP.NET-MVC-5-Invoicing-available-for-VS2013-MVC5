@@ -33,12 +33,12 @@ public class Invoice
 
     [DisplayName("Proposal Details")]
     public string ProposalDetails { get; set; }
-
-    [DisplayName("Created")]
+	
+    [DisplayName("Created")]	
     public DateTime TimeStamp { get; set; }
 
-    [DisplayName("Due Date")]
-    public DateTime DueDate { get; set; }
+	[DisplayName("Due Date")]		
+	public DateTime DueDate { get; set; }
 
     [DisplayName("Advance Payment Tax")]
     [Range(0.00, 100.0, ErrorMessage = "Value must be a % between 0 and 100")]
