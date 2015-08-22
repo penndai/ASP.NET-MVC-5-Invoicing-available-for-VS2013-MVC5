@@ -1,0 +1,6 @@
+C:\Penn\DerksoftWebApi\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Penn\DerksoftWebApi\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Penn\DerksoftWebApi\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Penn\DerksoftWebApi\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Penn\DerksoftWebApi\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Penn\DerksoftWebApi\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

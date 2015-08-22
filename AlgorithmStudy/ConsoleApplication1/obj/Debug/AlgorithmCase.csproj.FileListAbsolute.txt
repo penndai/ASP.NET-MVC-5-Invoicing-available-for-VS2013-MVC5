@@ -1,0 +1,6 @@
+C:\Penn\DerksoftWebApi\AlgorithmStudy\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Penn\DerksoftWebApi\AlgorithmStudy\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Penn\DerksoftWebApi\AlgorithmStudy\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\pdai\Documents\GitHub\PennDai\AlgorithmStudy\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\pdai\Documents\GitHub\PennDai\AlgorithmStudy\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\pdai\Documents\GitHub\PennDai\AlgorithmStudy\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
